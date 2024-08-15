@@ -1,4 +1,2 @@
-def input(user_name):
-    print('Привет,', user_name)
-
-input('Vika')
+user_name = input('Как вас зовут? ')
+print('Привет,', user_name)

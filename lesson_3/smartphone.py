@@ -6,8 +6,8 @@ class Smartphone:
         self.number = number
 
     def smartphone(self):
-        print('марка', self.brand, '-', 'модель', self.model, '.',
-              'номер телефона: ', self.number)
+        print(f'марка: {self.brand} - модель: {self.model}. номер телефона: '
+              f'{self.number}')
 
     def addSp(self, catalog):
         self.sp = catalog

@@ -1,0 +1,6 @@
+1. Функция contains. строчка 78.
+Отображение неверного ответа при тестировании метода на негативные проверки.
+Data: string = 'student', symbol = ''
+Expected result: False
+Actual result: True
+Output error: AssertionError

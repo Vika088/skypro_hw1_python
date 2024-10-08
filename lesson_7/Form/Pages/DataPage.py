@@ -33,5 +33,3 @@ class DataPage:
 
     def click_button(self):
         self._driver.find_element(*self._button).click()
-
-

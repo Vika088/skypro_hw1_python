@@ -15,3 +15,4 @@ def test_calc():
     expected_result = '15'
 
     assert expected_result in main_page.result()
+

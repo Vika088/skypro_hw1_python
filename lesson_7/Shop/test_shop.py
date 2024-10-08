@@ -26,3 +26,4 @@ def test_shopping():
     expected_price = '$58.29'
 
     assert expected_price in checkout_overview_page.total_label()
+

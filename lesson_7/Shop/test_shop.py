@@ -21,9 +21,8 @@ def test_shopping():
     checkout_info_page.fill_in_and_continue()
 
     checkout_overview_page = CheckoutOverviewPage(driver)
-    checkout_overview_page.total_label()
+    total_price = checkout_overview_page.total_label()
 
     expected_price = '$58.29'
 
-    assert expected_price in checkout_overview_page.total_label()
-
+    assert expected_price in total_price

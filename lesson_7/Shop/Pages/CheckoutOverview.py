@@ -11,5 +11,4 @@ class CheckoutOverviewPage:
         self.total_label = self._driver.find_element(By.CLASS_NAME, 'summary_total_label')
         self.total_price = self.total_label.text.strip().replace('Total: ', '')
         print(self.total_price)
-        assert self.total_price == '$58.29'
         return self.total_price
